@@ -1,0 +1,59 @@
+.register{
+    color: black;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 80px;
+    color: white ;
+    margin-top: 10px;
+}
+.bt_register{
+    height: 80px;
+    width: 200px;
+    font-size: 40px;
+    color: green;
+    border-radius: 20px;
+    box-shadow: 0px 4px gray;
+    border: solid 1px black ;
+    text-transform: uppercase;
+    margin-top: -40px;
+    background-color: white;
+}
+.div_register{
+    text-align: center;
+}
+.bt_register:active{
+    box-shadow: 0px 2px rgb(0, 91, 0);
+    transform: translateY(2px);
+}
+.box_text{
+    height: 66%;
+    margin-left: 160px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+label{
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-bottom: 6px;
+    color: white;
+}
+.text_input{
+    width: 300px;
+    height: 36px;
+    font-size: larger;
+    border-radius: 6px;
+    background: none;
+    color: white;
+    box-shadow: 0.5px 0.5px white;
+    padding-left: 6px;
+
+}
+br{
+    display: block;
+}

@@ -1,0 +1,42 @@
+.tensp{
+    margin-left: 100px;
+}
+.bt_slsua1{
+    background: none;
+    border: none;
+    background-image: url(../admin_picture/edit.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 40px;
+    margin-top: 16px;
+    margin-right: 80px;
+    margin-left: 10px;
+}
+.bt_slsua1:hover{
+    background: none;
+    border: none;
+    background-image: url(../admin_picture/edit-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 40px;
+}
+.text_bt_slsua1{
+    display: flex;
+    margin-left: 45px;
+    margin-top: -45px;
+    background-color: rgb(185, 255, 255);
+    width: 90px;
+    height: 50px;
+    padding-left: 60px;
+    margin-left: 0px;
+    padding-top: 10px;
+    border: solid 1px blue;
+    border-radius: 5px;
+    font-size: large;
+}
+.container_xemchitietsp{
+    width: 1500px;
+    padding-bottom: 10px;
+}

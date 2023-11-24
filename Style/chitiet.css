@@ -1,0 +1,50 @@
+.th {
+    overflow: hidden; /* Để chắc chắn rằng phần tử cha bao quanh nó có thể chứa các phần tử con */
+  }
+  
+  .product-info {
+    float: left; /* Di chuyển phần sản phẩm sang bên trái */
+    margin-right: 20px; /* Tạo khoảng cách giữa sản phẩm và mô tả */
+  }
+  
+  img {
+    max-width: 200px; /* Để hình ảnh có kích thước cố định */
+    height: auto;
+  }
+  
+  .mt {
+    width: 80%;
+
+    height: 60%;
+    margin: 0 auto; /* Căn giữa theo chiều ngang */
+    display: flex;
+    text-align: center;
+    
+  }
+
+  
+  .container{
+    width: 90%;
+    background-color: rgb(243, 237, 233);
+    border: solid;
+  }
+
+
+button{
+    border-radius: 10px;
+    width: 140px;
+    height: 35px;
+    background-color: cadetblue;
+}
+
+button:hover{
+    opacity: .7;
+}
+  
+p{
+    font-weight: bold;
+}
+.bmt{
+    border: solid blueviolet;
+    justify-content: center;
+}

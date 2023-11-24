@@ -1,0 +1,258 @@
+.imgspds{
+    border: 1px solid rgb(147, 143, 121);
+    border-radius: 4px;
+    padding: 2px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    margin-left: 50px
+}
+.sanpham{
+    display: block;
+    width: 1499px;
+    margin-top: 4px;
+    margin-left: -2px;
+    margin-bottom: -3px;
+    border-left: 2px gray solid;
+    border-top: 2px gray solid;
+    border-right: 2px gray solid;
+    background-color: rgb(249, 237, 255);
+    background-image: url(../admin_picture/istockphoto-1335423230-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.tables{
+    width: 1500px;
+    display: block;
+    margin-left: 1%;
+    margin-bottom: 20px;
+}
+.listsp{
+    border-bottom: 1px solid black;
+    display: flex;
+    width: 1000px;
+    
+}
+.namesp{
+    display: block;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: rgb(231, 198, 249);
+    border-bottom:  solid 2px blueviolet;
+    margin-left: -2px;
+    width: 1499px;
+    color: black;
+    padding-top: 10px;
+    margin-top: -2px;
+    padding-bottom: 10px;
+    margin-bottom: -2px;
+    border-bottom: 2px black solid;
+    border-left: solid 2px blueviolet;
+    border-right: solid 2px blueviolet;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: 2px;
+}
+.luachonsp{
+    float: right;
+    margin-top: -160px;
+}
+.stt{
+    padding-left: 40px;
+    font-size: 60px;
+}
+
+.bt_slsp{
+    display: block;
+    background-color: rebeccapurple;
+    height: 50px;
+    width: 92px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.bt_slsp:hover{
+    background-color: green;
+}
+.bt_slsua{
+    background: none;
+    border: none;
+    background-image: url(../admin_picture/edit.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 40px;
+    margin-top: 16px;
+    margin-right: 80px;
+    margin-left: 10px;
+}
+.bt_slsua:hover{
+    background: none;
+    border: none;
+    background-image: url(../admin_picture/edit-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 40px;
+}
+.text_bt_slsua{
+    display: flex;
+    margin-left: 45px;
+    margin-top: -45px;
+    background-color: rgb(185, 255, 255);
+    width: 90px;
+    height: 50px;
+    padding-left: 60px;
+    margin-left: 0px;
+    padding-top: 10px;
+    border: solid 1px blue;
+    border-radius: 5px;
+    font-size: large;
+}
+.bt_slxoa{
+    display: flex;
+    margin-left: 170px;
+    margin-right: 6px;
+    margin-top: 10px;
+    background: none;
+    border: none;
+    background-image: url(../admin_picture/recycle-bin.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 40px;
+}
+.bt_slxoa:hover{
+    background: none;
+    border: none;
+    background-image: url(../admin_picture/recycle-bin-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 40px;
+}
+.bt_slsp{
+    display: block;
+    margin-top: -10px;
+}
+.luachon_post{
+    margin-left: 40px;
+}
+.text_sapxep{
+    font-size: 20px;
+    color: rgb(55, 55, 55);
+    margin-top: 30px;
+}
+.select_sapxep{
+    height: 40px;
+    margin-top: 21px;
+    margin-left: 2px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: 2px 2px black;
+}
+.bt_loc{
+    border: none;
+    background: none;
+    background-image: url(../admin_picture/filter-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-left: 10px;
+    margin-bottom: -16px;
+}
+.bt_loc:hover{
+    background: none;
+    border: none;
+    background-image: url(../admin_picture/filter.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 40px;
+}
+.tach_timkiem{
+    display: block;
+    height: 24%;
+}
+.right_loc{
+    margin-top:-20px;
+    margin-left: 400px;
+}
+.input_timkiem{
+    height: 40px;
+    color: black;
+    font-size: 30px;
+    padding-left: 10px;
+    margin-top: -10px;
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: 2px 2px black;
+    margin-top: -40px;
+    margin-left: -40px;
+    box-shadow: 0.5px 0.5px white;
+    padding-left: 6px;
+}
+.bt_timkiem{
+    height: 60px;
+    display: block;
+    margin-top: -45px;
+    width: 60px;
+    font-size: 0px;
+    color: green;
+    border-radius: 100px;
+    box-shadow: 0px 4px gray;
+    border: solid 1px black ;
+    text-transform: uppercase;
+    background-color: white;
+    background-image: url(../admin_picture/loupe.png);
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position-x: 4px;
+    background-position-y: 4px;
+}
+.bt_timkiem:hover{
+    background-color: greenyellow;
+}
+.bt_timkiem:active{
+    background-color: rgb(117, 255, 117);
+    box-shadow: 0px 2px rgb(0, 91, 0);
+    transform: translateY(2px);
+}
+.luachon_post{
+    display: flex;
+}
+.bt_click_tim{
+    float: right;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.box_select{
+    display: block;
+    margin-top: 50px;
+    margin-left: -240px;
+}
+.sl_input{
+    height: 40px;
+    font-size: 20px;
+    margin-top: -32px;
+    width: 196px;
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: 2px 2px black;
+}
+.tittle_lsp{
+    font-size: 24px;
+    margin-left: -150px;
+}

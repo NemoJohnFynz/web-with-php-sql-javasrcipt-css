@@ -1,0 +1,34 @@
+.text_loai{ 
+    display: block;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 40px;
+    color: green;
+}
+.input_loai{
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.taoloai{
+    display: block;
+    background-color: rebeccapurple;
+    margin-left: 350px;
+    height: 60px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.taoloai:hover{
+    background-color: green;
+}
+.right_input{
+    margin-top: -10px;
+}

@@ -1,0 +1,22 @@
+footer {
+    background-color: #f8f8f8;
+    padding: 20px; /* Khoảng cách giữa nội dung và viền */
+    text-align: center; /* Căn giữa nội dung trong footer */
+    font-family: Arial, sans-serif;
+}
+
+footer span {
+    display: block; /* Hiển thị từng thông tin trên một dòng */
+    margin-bottom: 10px; /* Khoảng cách giữa các dòng */
+    font-size: 14px;
+    color: #666;
+}
+
+/* Tùy chỉnh cho từng thông tin cụ thể */
+footer span:nth-child(1) {
+    font-weight: bold;
+}
+
+footer span:nth-child(2) {
+    font-style: italic;
+}

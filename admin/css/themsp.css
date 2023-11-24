@@ -1,0 +1,58 @@
+.right_suasanpham{
+    display: block;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 40px;
+    color: green;
+}
+.bt_suasanpham{
+    display: block;
+    background-color: rebeccapurple;
+    margin-left: 300px;
+    height: 60px;
+    width: 160px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.bt_suasanpham:hover{
+    background-color: green;
+}
+.container_xemchitietsp{
+    padding-bottom: 10px;
+    margin-left:-30px;
+}
+.inputext_number_suasanpham{
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.sl_input{
+    height: 30px;
+    
+}
+.box{
+    display: flex;
+}
+.box_right{
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.box_right_textandnummber{
+    margin-top: 6px;
+    margin-left: 10px;
+    
+}
+.box_right_textandnummber_select{
+    margin-top: 11px;
+    margin-left: 10px;
+}
+.mota_input{
+    height: 100px;
+    width: 700px;
+    font-size: 20px;
+    padding-left: 5px;
+}

@@ -1,0 +1,27 @@
+.divtong {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between; /* Căn các hàng giữa không gian trống */
+    flex-wrap: wrap; /* Cho phép các hàng chuyển dòng khi không đủ chỗ */
+    gap: 20px; /* Khoảng cách giữa các sản phẩm */
+  }
+  
+  .spnho {
+    background-color: chocolate;
+    border: double yellowgreen;
+    width: calc(33.33% - 180px); /* Đảm bảo 3 sản phẩm trên mỗi hàng */
+    /* Trừ đi khoảng cách giữa các sản phẩm */
+    justify-content: center; /* Canh giữa theo chiều dọc */
+  align-items: center;
+  margin-bottom: 20px
+  }
+  
+  .hinh img {
+    max-width: 20%; /* Đảm bảo hình ảnh không vượt quá kích thước của cha */
+    height: auto;
+    display: block;
+  }
+
+.spmoi{
+    background-color: chocolate;
+}

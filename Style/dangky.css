@@ -1,0 +1,54 @@
+body{
+    background: rgb(19, 165, 165);
+    
+}
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+   
+}
+
+form{
+    align-items: center;
+    height: 750px;
+    width: 650px;
+    border:2px solid yellowgreen;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input{
+    display: block;
+    border: 2px solid palevioletred;
+    width: 70%;
+    padding: 10px;
+    margin: 15px auto;
+    border-radius: 15px;
+}
+
+.dangky, .dangnhap, .trangchu{
+    float:right;
+    background: rgb(7, 97, 62);
+    padding: 15px 15px;
+    color: #fff;
+    border-radius: 8px;
+    margin: 30px 35px;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+
+button:hover{
+    opacity: .5;
+}
